@@ -20,7 +20,7 @@ function ErrorMessage() {
   }, [error]);
 
   return isVisible ? (
-    <div className="absolute top-0.5 right-0.5">{error}</div>
+    <div className="absolute top-5 right-5 border-0 bg-red-400 p-3 rounded-lg">{error}</div>
   ) : null;
 }
 
